@@ -4,6 +4,8 @@
 옆모습, 뒷모습 모두 하나의 알고리즘으로 비식별화를 가능하게 설계하였고, 
 뒷모습인 경우에는 불필요한 비식별화를 하지 않도록 알고리즘을 설계하였습니다.
 
+완전한 뒷모습인 경우에는 blur처리를 하지 않게 하였고, 애매한 뒷모습으로 얼굴이 조금 보이는 상태라면 최대한 정수리, 귀를 가리지 않고 눈,코,입만을 blur처리 하도록 알고리즘을 작성하였습니다.
+
 Pytorch rcnn-resnet50 관련 정보: https://learnopencv.com/human-pose-estimation-using-keypoint-rcnn-in-pytorch/
 
 사용한 resnet50의 keypoint추출 17개
