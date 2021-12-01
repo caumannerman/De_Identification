@@ -8,6 +8,9 @@
 
 Pytorch rcnn-resnet50 관련 정보: https://learnopencv.com/human-pose-estimation-using-keypoint-rcnn-in-pytorch/
 
+프로그램 실행 영상 : https://www.youtube.com/watch?v=eDFVdfqHMLw
+(2배속으로 시청 권장)
+
 사용한 resnet50의 keypoint추출 17개
 
 <img width="744" alt="스크린샷 2021-11-03 오전 12 19 58" src="https://user-images.githubusercontent.com/75043852/139877013-7d94820a-5420-4f01-b2f6-74a57c47f57e.png">
